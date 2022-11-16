@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-denylist"
+  ],
+  "parentResource": "amplifytestd3d0074a",
+  "functionName": "amplifytestd3d0074aPreSignup",
+  "resourceName": "amplifytestd3d0074aPreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "amplifytestd3d0074aPreSignup",
+  "skipEdit": true,
+  "DOMAINDENYLIST": "yopmail.com",
+  "enableCors": false
+}
